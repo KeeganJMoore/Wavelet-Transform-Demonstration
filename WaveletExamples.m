@@ -74,21 +74,22 @@ mexicanHatWavelet2 = (2/(sqrt(3)*pi^0.25))*exp(-in2.^2/2).*(1-in2.^2);
 
 
 figure
-S1 = subplot(2,2,1);
+% S1 = subplot(2,2,1);
 plot(t,mexicanHatWavelet1)
 xlabel('Time [\cdot]'); ylabel('Amplitude [\cdot]')
 title('Translation'); set(gca,'fontsize',14)
-S1.Position(2) = 0.6;
-S1.Position(3) = S1.Position(3)*2;
-S1.Position(4) = 0.9*S1.Position(4);
+% S1.Position(2) = 0.6;
+% S1.Position(3) = S1.Position(3)*2;
+% S1.Position(4) = 0.9*S1.Position(4);
 
-S2 = subplot(2,2,3);
+% S2 = subplot(2,2,3);
+figure
 plot(t,mexicanHatWavelet2)
 xlabel('Time [\cdot]'); ylabel('Amplitude [\cdot]')
 title('Dilation (Stretch/Compress)'); set(gca,'fontsize',14)
-S2.Position
-S2.Position(3) = S2.Position(3)*2;
-S2.Position(4) = 0.9*S2.Position(4);
+% S2.Position
+% S2.Position(3) = S2.Position(3)*2;
+% S2.Position(4) = 0.9*S2.Position(4);
 
 
 %% 
